@@ -10,4 +10,16 @@
     console.log('The second name is ' + names[1]);
     console.log('The third name is ' + names[2]);
     console.log('The fourth name is ' + names[3]);
+
+    console.log('For Loop');
+
+    for (var i = 0; i < names.length; i++) {
+        console.log('The name at index ' + i + ' is ' + names[i]);
+    }
+
+    console.log('For Each Loop');
+
+    names.forEach(function (element, index) {
+        console.log('The name at index ' + index + ' is ' + element);
+    });
 })();
