@@ -39,7 +39,6 @@
 
     planets.pop();
 
-
     logPlanets();
 
     console.log('Finding and logging the index of "Earth" in the planets array.');
