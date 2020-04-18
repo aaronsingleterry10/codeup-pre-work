@@ -8,6 +8,66 @@
     <script>
 
 
+        //
+        // function hasEvens(arr) {
+        //     return arr.some(function(element) {
+        //         return element % 2 === 0;
+        //     });
+        // }
+        //
+        // console.log(hasEvens(numbers));
+        //
+        // // Write a function definition named countVowels that takes in value and returns the count of the number of vowels in a sequence.
+        //
+        // function countVowels(str1) {
+        //     var vowel_list = "aeiouAEIOU";
+        //     var vcount = 0;
+        //
+        //     for (var x = 0; x < str1.length; x++) {
+        //         if (vowel_list.indexOf(str1[x]) !== -1) {
+        //             vcount += 1;
+        //         }
+        //     }
+        //     return vcount;
+        // }
+
+        // Write a function definition named countEvens that takes in sequence of numbers and returns the number of even numbers
+
+        // console.log(countEvens(numbers));
+        //
+        // function countEvens(arr) {
+        //     var evenCount = 0
+        //
+        //     for (var x = 0; x < arr.length; x++) {
+        //         if (arr[x] % 2 === 0) {
+        //             evenCount = evenCount + 1;
+        //         }
+        //     }
+        //
+        //     return evenCount;
+        //
+        // }
+        // function onlyNegativeNumbers(arr) {
+        //     var negative = arr.filter(function(num) {
+        //         return num < 0;
+        //     });
+        //     return negative;
+        // };
+
+        // Write a function definition named onlyPositiveEvens that takes in sequence of numbers and returns an array containing all the positive evens from the sequence
+        var numbers = [3, 5, 1, 4, 7, 9, 2, 6];
+        console.log(numbers);
+
+        function elementsTimesTwo(arr) {
+            var timesTwo = arr.map(function(element) {
+                return element * 2;
+            });
+
+            return timesTwo;
+
+        }
+
+        console.log(elementsTimesTwo(numbers));
 
     </script>
 </body>
